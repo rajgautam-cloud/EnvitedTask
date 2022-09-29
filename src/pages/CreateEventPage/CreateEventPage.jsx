@@ -6,7 +6,6 @@ const CreateEventPage = () => {
   return (
     <div className="create-main-container">
       <div className=" create-left-container">
-        <span>back</span>
         <div className="form-container">
           {" "}
           <h1 className="heading-create mx-4 py-4">Create your event</h1>

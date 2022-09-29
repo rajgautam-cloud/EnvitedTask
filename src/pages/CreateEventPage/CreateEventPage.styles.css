@@ -67,6 +67,10 @@
     width: 100vw;
     text-align: left;
   }
+  .create-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
   .create-image {
     padding-top: 0vh;
     height: 30vh;

@@ -20,19 +20,19 @@
   line-height: 21px;
   color: #828282;
 }
+.event-image {
+  width: 30vw;
+}
 .date-info {
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
-  /* identical to box height */
-
   color: #240d57;
 }
 .info {
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
-
   color: #4f4f4f;
 }
 .icon {
@@ -50,4 +50,46 @@
 }
 .info-main-container {
   padding-top: 8vh;
+}
+@media only screen and (max-width: 1080px) {
+  .event-main-container {
+    flex-direction: column-reverse;
+    text-align: left;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vh;
+  }
+  .event-image {
+    width: 100%;
+  }
+  .info-main-container {
+    padding-top: 4vh;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .event-main-container {
+    flex-direction: column-reverse;
+    justify-content: none;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .event-left-container {
+    padding-left: 2vw;
+    padding-right: 4vw;
+  }
+
+  .event-image {
+    height: 100%;
+  }
+  .info-main-container {
+    padding-left: 2vw;
+  }
+  .date-info {
+    font-size: 14px;
+  }
+  .info {
+    font-size: 14px;
+  }
 }
